@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap");
+
+:root {
+  --font-title: "Cormorant Garamond", "Times New Roman", serif;
+  --font-body: "Nunito Sans", "Segoe UI", sans-serif;
+  --bg-main: #f8f2e9;
+  --bg-dark: #1d1713;
+  --surface-main: #f6efe5;
+  --surface-soft: #fffaf2;
+  --text-primary: #2f2722;
+  --text-secondary: #6b5f53;
+  --accent-main: #8f6542;
+  --accent-dark: #6e4d33;
+  --line-color: #d8c8b7;
+  --line-dark: #c2b09d;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--surface-main);
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--surface-main);
+  color: var(--text-primary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #fff;
+  background-color: var(--accent-main);
+}
